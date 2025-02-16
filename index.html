@@ -3,107 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <title>Nixt CV</title>
+    <link href="stiles.css" rel="stylesheet" />
   </head>
   <body>
-    <table cellspasing="">
-      <tr>
-        <td>
-          <img
-            src="images/header.webp"
-            width="300"
-            height="300"
-            alt="тут могла бы быть ваша реклама"
-          />
-        </td>
-        <td>
-          <h1>Никст</h1>
-          <p>
-            <em>Я ебашу, как ёб твою мать, <strong>понимаешь?!</strong></em>
-          </p>
+    <div class="container">
+      <div class="info">
+        <img
+          src="images/header.webp"
+          alt="тут могла бы быть ваша реклама"
+          class="avatar"
+        />
+
+        <div class="info-text">
+          <h1 class="white-text-with-border">Никст</h1>
+          <p>Я ебашу, как ёб твою мать, <strong>понимаешь?!</strong></p>
           <p>
             Я люблю ебашить, но только тогда, когда я вижу функциональный
             результат от этого
           </p>
-        </td>
-      </tr>
-    </table>
+          <h4>Мои социальные сети</h4>
 
-    <hr />
+          <a href="https://vk.com/id1241235" target="blank"
+            >Мой адрес ВКонтакте</a
+          >
+          |
+          <a href="https://instagram.com/snezhanaV" target="blank"
+            >Моя инста-шлюха</a
+          >
+          |
+          <a href="https://t.me/Nixt_100">Как ни странно реально моя телега</a>
+        </div>
+      </div>
 
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-      <li>
-        <a href="https://vk.com/id1241235" target="blank"
-          >Мой адрес ВКонтакте</a
-        >
-      </li>
-      <li>
-        <a href="https://instagram.com/snezhanaV" target="blank"
-          >Моя инста-шлюха</a
-        >
-      </li>
-      <li>
-        <a href="https://t.me/Nixt_100">Как ни странно реально моя телега</a>
-      </li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list" type="I">
+          <li>Спортинг</li>
+          <li>Велосипединг</li>
+          <li>Долбить сучек</li>
+        </ol>
+      </div>
 
-    <h2>Мои хобби</h2>
-    <ol type="I">
-      <li>Спортинг</li>
-      <li>Велосипединг</li>
-      <li>Долбить сучек</li>
-    </ol>
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td><strong>Компания</strong></td>
+            <td><strong>Должность</strong></td>
+            <td><strong>Год</strong></td>
+          </tr>
+          <tr>
+            <td>Деревня</td>
+            <td>Первый ебарь на деревне</td>
+            <td>1974-1974</td>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td>Второй ебарь</td>
+            <td>2003-2004</td>
+          </tr>
+          <tr>
+            <td>Стриж</td>
+            <td>Палка</td>
+            <td>Воробей</td>
+          </tr>
+        </table>
+      </div>
 
-    <hr />
+      <div class="card bg-red">
+        <h2>Мои курсы</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=SpCUuyZZTp8"
+              target="_blank"
+              >Ссылка на курс норм пацана</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=2297s"
+              >И ещё одна ссылка</a
+            >
+          </li>
+        </ul>
+      </div>
 
-    <h2>Опыт работы</h2>
-    <table>
-      <tr>
-        <td><strong>Компания</strong></td>
-        <td><strong>Должность</strong></td>
-        <td><strong>Год</strong></td>
-      </tr>
-      <tr>
-        <td>Деревня</td>
-        <td>Первый ебарь</td>
-        <td>1974-1974</td>
-      </tr>
-      <tr>
-        <td>Город</td>
-        <td>Второй ебарь</td>
-        <td>2003-2004</td>
-      </tr>
-    </table>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите ваше имя" />
+            </div>
 
-    <hr />
+            <div class="form-group">
+              <label for="email">Ваш email</label>
+              <input type="email" id="email" placeholder="Введите ваш email" />
+            </div>
+          </div>
 
-    <h2>Мои курсы</h2>
-    <a href="youtube.html" target="_blank">Подолбиться в жопу</a>
+          <div class="form-group">
+            <label for="text">Сообщение</label>
+            <textarea id="text" rows="3" cols="30"></textarea>
+          </div>
 
-    <hr />
+          <input
+            class="btn"
+            type="submit"
+            value="Связаться"
+            name=""
+            id=""
+            href="#"
+          />
+        </form>
+      </div>
 
-    <h2>Связаться со мной</h2>
-
-    <form action="/">
-      <label for="name">Ваше имя</label>
-      <input type="text" id="name" placeholder="Введите ваше имя" />
-
-      <br />
-
-      <label for="email">Ваш email</label>
-      <input type="email" id="email" placeholder="Введите ваш email" />
-
-      <br />
-
-      <label for="text">Сообщение</label>
-      <br />
-      <textarea id="text" rows="3" cols="30"></textarea>
-
-      <br />
-
-      <input type="submit" value="Связаться" name="" id="" />
-    </form>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>
